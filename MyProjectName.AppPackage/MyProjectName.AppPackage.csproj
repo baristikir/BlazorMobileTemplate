@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Package\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="..\MyProjectName.Blazor\bin\MyProjectName.Blazor.zip" Link="Package\MyProjectName.Blazor.zip" />
+  </ItemGroup>
+
+</Project>
